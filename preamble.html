@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>REPUBLIC DAY</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[url(https://i.postimg.cc/YStVJxmN/Home.jpg)] bg-cover bg-center bg-no-repeat">
+
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 flex justify-between items-center p-2 sm:p-3 md:-4 xl:p-6">
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm sm:mr-1.5 md:text-base md:mr-2 md:p-1 lg:text-xl lg:mr-5 lg:p-1.25" onclick="openHome()">HOME</button>
+
+        <div>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRepublic()">REPUBLIC DAY</button>
+
+        <button   class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openConstitution()">CONSTITUTION</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openLeaders()">LEADERS</button>
+
+        <button   class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRight()">RIGHTS</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openDuties()">DUTIES</button>
+         
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openQuiz()">QUIZ</button>
+
+        </div>
+
+    </div>
+
+      <div class="flex flex-col items-center justify-start mt-3.75">
+
+      <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-b from-red-900 via-white to-green-900 drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)] max-w-[639px]:hidden
+         sm:text-5xl md:text-6xl lg:text-9xl">
+        PREAMBLE
+      </h1>
+
+      </div>
+
+    <div class="flex flex-wrap gap-10 justify-center items-center p-10 flex-1 box-border">
+
+     <div class="bg-white/75 w-[90%] md:w-[75%] lg:w-[70%] rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+      border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+      hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+     <h1 class="text-xl font-bold text-orange-600 mb-4">THE  PREAMBLE OF THE INDIAN CONSTITUTION</h1>
+
+     <div class="flex flex-col lg:flex-row gap-5 items-start">
+     
+      <div class="w-full lg:w-1/2">
+       <img src="https://i.postimg.cc/HsXTmBVy/preamble.jpg" alt="Preamble" class="w-full h-[260px] sm:h-[450px] md:h-[500px] lg:h-auto object-cover rounded-md" />
+      </div>
+
+      <div class="w-full lg:w-1/2">
+
+     <p class="text-lg text-gray-500 m-6.25 text-justify leading-relaxed"><span class="font-bold text-gray-500">The Preamble</span> to the Constitution of India is often described as the soul and spirit of the Constitution. 
+        Though brief in length, it contains the fundamental philosophy, values, and objectives upon which the entire constitutional framework is built. It acts as an introduction to 
+        the Constitution and reflects the ideals and aspirations of the people of India. The Preamble explains the nature of the Indian State, the source of authority of the Constitution, 
+        and the goals it seeks to achieve.</p>
+
+     <p class="text-lg text-gray-500 m-6.25 text-justify leading-relaxed">The Preamble begins with the powerful words, <span class="font-bold text-gray-500">“We, the People of India…”.</span> These words are not merely decorative. 
+        They clearly declare that the Constitution derives its authority from the people of India. Unlike monarchies or colonial systems where power rests with a king or foreign rulers, India’s 
+        Constitution is based on popular sovereignty. It establishes that the ultimate power lies in the hands of the citizens. The people are the makers, guardians, and beneficiaries of the Constitution.</p>
+
+        </div>
+
+        </div>
+
+        </div>
+
+     <div class="bg-white/75 w-[90%] md:w-[75%] lg:w-[70%] rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+      border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+      hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+     <p class="text-lg text-gray-500 m-6.25 text-justify leading-relaxed">The Preamble goes on to declare India as a <span class="font-bold text-gray-500">Sovereign, Socialist, Secular, Democratic Republic.</span> Each of these terms has deep meaning 
+        and plays a crucial role in defining the character of the Indian nation.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The term <span class="font-bold text-gray-500">Sovereign</span> means that India is completely independent and free to govern itself. It is not subject to the authority of any external power. 
+        India has the freedom to conduct its internal affairs and foreign relations according to its own will. This concept of sovereignty was especially significant after centuries of colonial rule, as it symbolized India’s 
+        complete political independence.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The word <span class="font-bold text-gray-500">Socialist</span> reflects the commitment of the Indian State to achieve social and economic justice. It does not imply rigid socialism but promotes 
+        the idea of reducing inequalities in income, wealth, and opportunities. The State aims to ensure a fair distribution of resources and prevent the concentration of wealth in the hands of a few. The goal is to provide a 
+        dignified standard of living for all citizens, especially the weaker sections of society.</p>
+
+     <p class="text-lg text-gray500 m-2.5 text-justify leading-relaxed">The term <span class="font-bold text-gray-500">Secular</span> signifies that India has no official religion. The State treats all religions equally and does not favor or discriminate against any religion. 
+        Every citizen has the freedom to profess, practice, and propagate their religion. Secularism in India is not about hostility towards religion but about respect for all religions. This principle is vital in a country as diverse as India, 
+        where people follow different faiths, cultures, and traditions.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The word <span class="font-bold text-gray-500">Democratic</span> indicates that the government is elected by the people. Democracy in India is based on the principle of universal adult franchise, which means that every 
+        citizen above a certain age has the right to vote, regardless of caste, gender, religion, or economic status. Democracy ensures participation, accountability, and transparency in governance. It allows people to express their views, choose their 
+        representatives, and change the government peacefully through elections.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The term <span class="font-bold text-gray-500">Republic</span> means that the head of the State is elected and not a hereditary monarch. In India, the President is the constitutional head of the country and is elected indirectly 
+        by the representatives of the people. This reflects the idea that public offices are open to all citizens and are not based on birth or lineage.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">Apart from defining the nature of the State, the Preamble also lays down the objectives of the Constitution. These objectives are <span class="font-bold text-gray-500">Justice, Liberty, Equality, and Fraternity</span>. Together, 
+        they form the moral foundation of the Indian Constitution.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The concept of <span class="font-bold text-gray-500">Justice</span> in the Preamble is divided into three parts: social, economic, and political justice.
+        Social justice aims to eliminate discrimination and ensure equal treatment for all citizens, regardless of caste, religion, gender, or background. It seeks to create a society based on fairness and dignity.
+        Economic justice focuses on reducing economic inequalities and providing equal opportunities for livelihood. It emphasizes fair wages, access to resources, and protection against exploitation.
+        Political justice ensures equal political rights for all citizens, including the right to vote, contest elections, and participate in the political process.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The Preamble also guarantees <span class="font-bold text-gray-500">Liberty</span> of thought, expression, belief, faith, and worship. Liberty allows individuals to think freely, express their opinions, follow their beliefs, 
+        and practice their religion without fear, as long as they do not violate the law or harm others. Liberty is essential for the growth of individual personality and the development of a vibrant democracy.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed"><span class="font-bold text-gray-500">Equality</span> is another cornerstone of the Indian Constitution. The Preamble promises equality of status and opportunity. This means that all citizens are equal before the law and no 
+        one is above it. The State is prohibited from discriminating against individuals on the basis of religion, race, caste, sex, or place of birth. Equality ensures that every person has the chance to grow and succeed based on merit and effort.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The idea of Fraternity emphasizes a sense of brotherhood among all citizens. It aims to promote unity, mutual respect, and harmony in society. Fraternity also assures the dignity 
+        of the individual and the unity and integrity of the nation. In a diverse country like India, fraternity plays a crucial role in maintaining social cohesion and national unity.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The historical importance of the Preamble is immense. It was adopted by the Constituent Assembly on 26 November 1949 and came into force on 26 January 1950. The date 26 January was 
+        chosen deliberately, as it commemorated the declaration of Purna Swaraj, or complete independence, made in 1930. This connection highlights the continuity between India’s freedom struggle and its constitutional values.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">Although the Preamble is not enforceable by courts on its own, it has significant legal importance. The Supreme Court of India has recognized the Preamble as a guiding light for 
+        interpreting the Constitution. In several landmark judgments, the Court has stated that the Preamble reflects the basic structure of the Constitution, which cannot be altered even by constitutional amendments.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">The Preamble was amended once by the 42nd Constitutional Amendment Act of 1976, which added the words <span class="font-bold text-gray-500">Socialist, Secular,</span> and <span class="font-bold text-gray-500">Integrity</span>. This amendment strengthened the commitment 
+        of the Constitution to social justice, religious neutrality, and national unity.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">In the modern era, the relevance of the Preamble remains as strong as ever. In times of social conflict, political debates, and economic challenges, the Preamble reminds citizens 
+        and leaders alike of the core values of the nation. It acts as a moral compass that guides governance and public life.</p>
+
+     <p class="text-lg text-gray-500 m-2.5 text-justify leading-relaxed">In conclusion, the Preamble of the Indian Constitution is much more than an introductory statement. It is a declaration of India’s identity, ideals, and aspirations. It reflects 
+        the dreams of the freedom fighters, the wisdom of the Constitution-makers, and the hopes of future generations. By upholding justice, liberty, equality, and fraternity, the Preamble continues to inspire the nation to strive towards a just, inclusive, 
+        and democratic society.</p>
+
+     <a href="https://en.wikipedia.org/wiki/Preamble_to_the_Constitution_of_India" target="_blank" class="text-2xl text-blue-700 font-bold
+      border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+      mt-2.5">Read More...</a>
+
+     </div>
+
+     <div class="fixed inset-0 -z-10 pointer-events-none animate-ping translate-y-[20vh] duration-1000 delay-1000">
+
+           <img src="https://i.postimg.cc/L4gyQWbz/balloon.png" class="w-full h-full object-cover" /> 
+            
+      </div>
+
+    </div>
+
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 p-6 flex flex-col justify-center items-center"> 
+
+        <h3 class="font-bold">© 2026 Republic Day Project | All Rights Reserved</h3>
+        <h3 class="font-bold">Designed & Developed by Pawan Kumar</h3>
+
+    </div>
+
+    <script src="preamble.js"></script>
+
+</body>
+</html>

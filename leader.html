@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>REPUBLIC DAY</title>
+</head>
+<body class="flex flex-col min-h-full bg-[url(https://i.postimg.cc/DyKtrFyY/Home5.jpg)] bg-cover bg-center bg-no-repeat">
+
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 flex justify-between items-center p-2 sm:p-3 md:-4 xl:p-6">
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25" onclick="openHome()">HOME</button>
+
+        <div>
+
+            
+        <button   class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRepublic()">REPUBLIC DAY</button>
+
+        <button   class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openPreamble()">PREAMBLE</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openConstitution()">CONSTITUTION</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRight()">RIGHTS</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openDuties()">DUTIES</button>
+
+        <button  class="text-[10px] text-blue-600 font-bold p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+         border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+         ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openQuiz()">QUIZ</button>
+
+        </div>
+
+    </div>
+
+      <div class="flex flex-col items-center justify-start mt-3.75">
+
+      <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-b from-red-900 via-white to-green-900 drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]
+         sm:text-5xl md:text-6xl lg:text-9xl">
+        NATIONAL LEADERS
+      </h1>
+
+      </div>
+
+          <div class="flex flex-wrap justify-center p-10 flex-1 box-border gap-10">
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">MAHATMA GANDHI</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/cJ6jxLX8/baapu.jpg" alt="Mahatma Gandhi" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Mahatma Gandhi, also known as <span class="font-bold text-gray-500">“Bapu”</span> and the 
+               <span class="font-bold text-gray-500">Father of the Nation</span>, was born on 2 October 1869 in Porbandar, Gujarat. His father was Karamchand Gandhi 
+               and his mother was Putlibai. He studied law in London and later worked in South Africa. Gandhi led India’s freedom struggle through truth and nonviolence. 
+               He started major movements like the Non-Cooperation Movement, Dandi March, and Quit India Movement. His simple lifestyle and strong morals united millions 
+               of Indians and played a decisive role in achieving independence in 1947.</p>
+
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">PT. JAWAHARLAL NEHRU</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/sDyNBcTx/nehru.jpg" alt="Jawaharlal Nehru" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Jawaharlal Nehru, popularly known as <span class="font-bold text-gray-500">“Chacha Nehru”</span>,
+                was born on 14 November 1889 in Allahabad. His father was Motilal Nehru and his mother was Swarup Rani. He studied law in England. Nehru actively participated 
+                in the freedom movement under Mahatma Gandhi and spent many years in prison. After independence, he became the first Prime Minister of India. He focused on 
+                democracy, education, science, and industrial development, laying the foundation of modern India.</p>
+                
+            <div class="inline-block">    
+            <a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+           <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">SUBHAS CHANDRA BOSE</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/cHwFCgYg/netaji.webp" alt="Subhas Chandra Bose" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Subhas Chandra Bose, respectfully called <span class="font-bold text-gray-500">“Netaji”</span>, was born 
+               on 23 January 1897 in Cuttack, Odisha. His father was Janakinath Bose and his mother was Prabhavati Devi. He was highly educated and cleared the Indian Civil Services 
+               exam. Bose believed freedom could be achieved through armed struggle. He formed the Azad Hind Fauj and inspired people with the slogan “Give me blood, and I will give 
+               you freedom.” His courage and patriotism left a lasting impact.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Subhas_Chandra_Bose" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">SARDAR VALLABHBHAI PATEL</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/bwrLbFkc/patel.jpg" alt="Sardar Vallabhbhai Patel" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Sardar Vallabhbhai Patel, known as the <span class="font-bold text-gray-500">“Iron Man of India”</span>, 
+               was born on 31 October 1875 in Nadiad, Gujarat. His father was Jhaverbhai Patel and his mother was Ladbai. He studied law in England. Patel played an important role 
+               in the freedom struggle and led several farmer movements. After independence, he united more than 500 princely states into one nation. His strong leadership ensured 
+               India’s unity and integrity.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Vallabhbhai_Patel" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180x flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">BHAGAT SINGH</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/J0R5hTR4/shaheed.jpg" alt="Bhagat Singh" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Bhagat Singh, remembered as <span class="font-bold text-gray-500">“Shaheed Bhagat Singh”</span>, was born 
+               on 28 September 1907 in Banga, Punjab. His father was Kishan Singh and his mother was Vidyavati. He studied at DAV College, Lahore. He was a revolutionary who believed 
+               in fearless action against British injustice. He threw non-lethal bombs in the Central Assembly to protest colonial laws. He was executed at a young age, becoming a 
+               powerful symbol of sacrifice and bravery.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Bhagat_Singh" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">CHANDRASHEKHAR AZAD</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/CLL4T6vP/azad.jpg" alt="Chandrashekhar Azad" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Chandrashekhar Azad, famously known as <span class="font-bold text-gray-500">“Azad”</span>, was born on 23 July 
+               1906 in Bhavra, Madhya Pradesh. His father was Sitaram Tiwari and his mother was Jagrani Devi. He joined the revolutionary movement at a young age. Azad was a key leader of 
+               the Hindustan Socialist Republican Association. He believed in armed resistance and never wanted to be captured alive. He sacrificed his life while fighting British forces.</p>
+         
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Chandrashekhar_Azad" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">DR. BHIMRAO AMBEDKAR</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/N0T6khMg/babasaheb.jpg" alt="Dr. Bhimrao Ambedkar" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Dr. Bhimrao Ambedkar, respectfully called <span class="font-bold text-gray-500">“Babasaheb Ambedkar”</span>, was born 
+               on 14 April 1891 in Mhow, Madhya Pradesh. His father was Ramji Sakpal and his mother was Bhimabai. He received higher education in India and abroad. Ambedkar fought against social 
+               discrimination and inequality. He was the chief architect of the Indian Constitution and ensured justice, liberty, and equality for all citizens of independent India.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">RABINDRANATH TAGORE</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/TPrbWr7d/gurudev.jpg" alt="Rabindranath Tagore" class="w-full mb-2.5unded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Rabindranath Tagore, respectfully known as <span class="font-bold text-gray-500">“Gurudev”</span>, was born on 7 May 1861 in Kolkata, 
+               West Bengal. His father was Debendranath Tagore and his mother was Sarada Devi. He received education both in India and abroad. Tagore was a poet, writer, philosopher, and freedom supporter. 
+               Though he did not take part in active politics, his writings inspired national pride and unity. He composed India’s national anthem “Jana Gana Mana” and used literature to awaken the spirit of 
+               freedom among Indians.</p>
+             
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>  
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">LALA LAJPAT RAI</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/ZK2v7fXm/kesri.jpg" alt="Lala Lajpat Rai" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Lala Lajpat Rai, popularly known as <span class="font-bold text-gray-500">“Punjab Kesari”</span>, was born on 28 January 
+               1865 in Punjab. His father was Munshi Radha Krishna and his mother was Gulab Devi. He studied law and became a national leader. He was part of the Lal-Bal-Pal trio. He strongly protested 
+               against the Simon Commission and suffered fatal injuries during a protest. His sacrifice made him a martyr of India’s freedom struggle.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Lala_Lajpat_Rai" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">BAL GANGADHAR TILAK</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/MT6nMgfX/tilak.jpg" alt="Bal Gangadhar Tilak" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Bal Gangadhar Tilak, widely known as <span class="font-bold text-gray-500">“Lokmanya Tilak”</span>, was born on 23 July 1856 
+               in Ratnagiri, Maharashtra. His father was Gangadhar Tilak and his mother was Parvati Bai. He was a scholar, teacher, and journalist. Tilak inspired nationalism among Indians. He gave the 
+               famous slogan “Swaraj is my birthright and I shall have it.” His leadership strengthened the demand for complete independence.</p>
+            
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Bal_Gangadhar_Tilak" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">RANI LAKSHMIBAI</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/15nfqGXj/rani.jpg" alt="Rani Lakshmibai" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Rani Lakshmibai, also known as the <span class="font-bold text-gray-500">Queen of Jhansi</span>, was born on 30 November 1827 
+               in Varanasi. Her father was Moropant Tambe and her mother was Bhagirathi Bai. She was trained in horse riding and sword fighting. She played a heroic role in the Revolt of 1857 and fought 
+               bravely against British forces. Her courage and sacrifice made her a symbol of women’s power and patriotism.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Rani_of_Jhansi" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">MANGAL PANDEY</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/FH0zPhj1/mangal.jpg" alt="Mangal Pandey" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Mangal Pandey was born on 19 July 1827 in Ballia, Uttar Pradesh. He served as a soldier in the British East India Company’s army. 
+               He was among the first to openly rebel against British rule. His actions sparked the Revolt of 1857. He was executed by the British, but his bravery inspired widespread resistance and marked 
+               the beginning of organized struggle against colonial rule.</p>
+
+            <div class="inline-block">  
+            <a href="https://en.wikipedia.org/wiki/Mangal_Pandey" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">MAULANA ABUL KALAM</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/WzDb0VNG/kalam.jpg" alt="Maulana Abul Kalam" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Maulana Abul Kalam Azad was born on 11 November 1888 in Mecca. His father was Maulana Khairuddin and his mother was Alia Begum. 
+               He was a scholar, writer, and freedom fighter. Azad actively participated in the Non-Cooperation Movement and promoted Hindu-Muslim unity. After independence, he became India’s first Education 
+               Minister and worked to strengthen the education system of the nation.</p>
+            
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Maulana_Azad" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">RAM PRASAD BISMIL</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/vZwHxCpW/ram.jpg" alt="ram Prasad Bismil" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Ram Prasad Bismil was born on 11 June 1897 in Shahjahanpur, Uttar Pradesh. His father was Murlidhar and his mother was Mulmati. He was 
+               a revolutionary and poet. Bismil played a major role in the Kakori Train Conspiracy against British rule. He fought bravely for independence and was executed by the British. His sacrifice inspired 
+               generations of freedom fighters.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Ram_Prasad_Bismil" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">ASHFAQULLA KHAN</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/N0gspmG2/ashfaqulla.jpg" alt="Ashfaqulla Khan" class="w-full mb-2.5unded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5xt-justify leading-relaxed">Ashfaqulla Khan was born on 22 October 1900 in Shahjahanpur, Uttar Pradesh. His father was Shafiq Ullah Khan and his mother was Mazhar-un-Nissa. 
+               He was a close associate of Ram Prasad Bismil. He took part in the Kakori conspiracy and strongly believed in Hindu-Muslim unity. He sacrificed his life for the freedom of India and remains a symbol of 
+               unity and courage.</p>
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Ashfaqulla_Khan" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">SUKHDEV THAPAR</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/GtsdHjKN/sukhdev.jpg" alt="Sukhdev Thapar" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Sukhdev was born on 15 May 1907 in Ludhiana, Punjab. He was deeply influenced by revolutionary ideas. He worked closely with Bhagat Singh and Rajguru. 
+               Sukhdev played an important role in organizing youth for the freedom movement. He was arrested and executed by the British for his revolutionary activities. His sacrifice strengthened the spirit of resistance 
+               against colonial rule.</p>
+            
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Sukhdev_Thapar" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>   
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">SHIVRAM RAJGURU</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/L4q1tKbM/rajguru.jpg" alt="Shivaram Rajguru" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Shivaram Rajguru was born on 24 August 1908 in Kheda, Maharashtra. His father was Harinarayan Rajguru. He was skilled in shooting and joined the revolutionary movement. 
+               Rajguru assassinated British officer Saunders to protest injustice. He was arrested and executed along with Bhagat Singh and Sukhdev. His bravery and sacrifice made him a respected martyr of India’s freedom struggle.</p>
+              
+            <div class="inline-block">
+            <a href="https://en.wikipedia.org/wiki/Shivaram_Rajguru" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">MADAN MOHAN MALAVIYA</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/Bn3Pf8Q9/malaviya.jpg" alt="Madan Mohan Malaviya" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Madan Mohan Malaviya, known as <span class="font-bold text-gray-500">“Mahamana Malaviya”</span>, was born on 25 December 1861 in Allahabad. His father was Pandit Brijnath 
+               and his mother was Moona Devi. He was a great scholar and educationist. He founded Banaras Hindu University. Malaviya supported the freedom movement through education, leadership, and social reform, contributing greatly to nation 
+               building.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Madan_Mohan_Malaviya" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-orange-600 mb-2">AUROBINDO GHOSH</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/BvYjFMTV/shri.jpg" alt="Aurobindo Ghosh" class="w-full mb-2.5unded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Aurobindo Ghosh was born on 15 August 1872 in Kolkata. His father was Krishna Dhan Ghosh and his mother was Swarnalata Devi. He studied in England. Aurobindo was a revolutionary 
+               leader and later became a spiritual philosopher. His writings inspired nationalism and self-confidence among Indians. He played an important role in strengthening the freedom movement through ideas and vision.</p>
+             
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Sri_Aurobindo" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0  rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a> 
+            </div> 
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-blue-600 mb-2">GOPAL KRISHNA GOKHALE</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/66G87V8N/gopal.jpg" alt="Gopal Krishna Gokhale" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Gopal Krishna Gokhale was born on 9 May 1866 in Maharashtra. His father was Krishna Rao Gokhale. He was a social reformer and freedom fighter. Gokhale believed in peaceful methods and 
+               constitutional reforms. He was a senior leader of the Indian National Congress and the political mentor of Mahatma Gandhi. His ideas influenced India’s freedom struggle deeply.</p>
+            
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Gopal_Krishna_Gokhale" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a> 
+            </div>  
+
+          </div>
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5 min-h-180 flex flex-col justify-between
+            border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+            hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+           <h1 class="text-xl font-bold text-green-600 mb-2">BEGUM HAZARAT MAHAL</h1>
+
+           <div>
+                <img src="https://i.postimg.cc/d1ZVyvtd/begum.jpg" alt="Begum Hazrat Mahal" class="w-full mb-2.5 rounded-md" />
+           </div>
+
+            <p class="text-gray-400 m-2.5 text-justify leading-relaxed">Begum Hazrat Mahal was born in 1820 in Faizabad. She was the wife of Nawab Wajid Ali Shah. She played a leading role in the Revolt of 1857 from Lucknow. Begum Hazrat Mahal organized 
+               resistance against British forces and showed remarkable leadership. Her bravery proved that women played a powerful role in India’s struggle for independence.</p>
+               
+            <div class="inline-block">   
+            <a href="https://en.wikipedia.org/wiki/Begum_Hazrat_Mahal" target="_blank" class="text-2xl text-blue-700 font-bold
+               border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-700 border-b-green-700 border-r-white border-l-white 
+               mt-2.5">Read More...</a>
+            </div>
+
+          </div>
+
+          <div class="fixed inset-0 -z-10 pointer-events-none animate-ping translate-y-[20vh] duration-1000 delay-1000">
+
+           <img src="https://i.postimg.cc/L4gyQWbz/balloon.png" class="w-full h-full object-cover" /> 
+            
+          </div>
+
+          </div>
+
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 p-6 flex flex-col justify-center items-center"> 
+
+        <h3 class="font-bold">© 2026 Republic Day Project | All Rights Reserved</h3>
+        <h3 class="font-bold">Designed & Developed by Pawan Kumar</h3>
+
+    </div>
+
+    <script src="leader.js"></script>
+
+</body>
+</html>

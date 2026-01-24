@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>REPUBLIC DAY</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[url(https://i.postimg.cc/g0pmSRDB/Main.jpg)] bg-cover bg-center bg-no-repeat">
+
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 flex justify-between items-center p-2 sm:p-3 md:-4 xl:p-6">
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25" onclick="openAbout()">ABOUT</button>
+
+             <div>
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRepublic()">REPUBLIC DAY</button>
+             
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openPreamble()">PREAMBLE</button>
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openConstitution()">CONSTITUTION</button>
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openLeaders()">LEADERS</button>
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm  md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openRight()">RIGHTS</button>
+
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openDuties()">DUTIES</button>
+            
+            <button class="text-[10px] text-blue-600 font-bold mr-1 p-0.5 cursor-pointer border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px]
+             border-t-orange-700 border-b-green-700 border-r-white border-l-white shadow-[0_10px_30px_rgba(0,0,0,0.15)]
+             ease-[cubic-bezier(0.176,0.885,0.32,1.275)] hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] sm:text-sm md:text-base md:p-1 lg:text-xl lg:p-1.25 lg:mr-5" onclick="openQuiz()">QUIZ</button>
+
+             </div>
+
+    </div>
+
+      <div class="flex flex-col items-center justify-start mt-3.75">
+
+      <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-b from-red-900 via-white to-green-900 drop-shadow-[0_2px_2px_rgba(0,0,0,0.6)]
+          sm:text-5xl md:text-6xl lg:text-9xl">
+        HAPPY REPUBLIC DAY
+      </h1>
+
+      </div>
+
+          <div class="flex flex-wrap justify-center p-10 flex-1 box-border gap-20">
+
+          <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+               border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+               hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+               <h1 class="text-xl font-bold text-orange-600 mb-2">ARCHITECTS OF THE INDIAN CONSTITUTION</h1>
+
+        <div>
+                <img src="https://i.postimg.cc/yxybNgRw/dr-br-ambedkar.png" alt="Dr. B. R. Ambedkar" class="w-full mb-1.25"/>
+        </div>
+                <p class="text-xl text-gray-400 m-2.5 text-justify leading-relaxed">
+                <span class="font-bold text-gray-500">Dr. B. R. Ambedkar</span> was born on April 14, 1891.
+                 He was a great social reformer, jurist, and the principal architect of the Indian Constitution.
+                 He also did a lot for the rights of Dalits in India and was honored with the ‘Bharat Ratna’ award.
+                 He was a strong advocate for education, equality, and social justice.</p>
+
+                <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar" target="_blank" class="text-2xl text-blue-700 font-bold
+                 border-b-4 hover:border-t-4 hover:border-b-0 focus:border-t-4 focus:border-b-0 rounded-[999px] inline-block p-5 py-2.5 border-t-orange-500 border-b-green-500 border-r-white border-l-white 
+                 mt-2.5">Read More...</a>
+
+            </div>
+
+        <div class="bg-white/95 w-112.5 rounded-[20px] mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+                 border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+                 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+                <h1 class="text-xl font-bold text-blue-600 mb-2">REPUBLIC DAY CELEBRATING🎉🎊</h1>
+
+             <div>
+                <video src="https://files.catbox.moe/mxz5mj.mp4" controls controlsList="nodownload nofullscreen"></video>
+             </div>
+
+        </div>
+
+                <div class="bg-white/95 rounded-[20px] w-112.5 mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+                 border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+                 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+                <h1 class="text-xl font-bold text-green-600 mb-2">NATIONAL ANTHEM LYRICS</h1>
+
+             <div>
+                <video src="https://files.catbox.moe/cft6xs.mp4" controls controlsList="nodownload"></video>
+             </div>
+
+        </div>
+
+         <div class="bg-white/95 rounded-[20px] w-112.5 mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+                 border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+                 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+                <h1 class="text-xl font-bold text-orange-600 mb-2">NATIONAL SONG LYRICS</h1>
+
+             <div>
+                <video src="https://files.catbox.moe/n9lsxc.mp4" class="w-full rounded-lg mt-2" controls controlsList="nodownload"></video>
+             </div>
+
+           </div>
+           
+        <div class="bg-white/95 rounded-[20px] w-112.5 mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+                 border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+                 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+                <h1 class="text-xl font-bold text-blue-600 mb-2">SLOGANS</h1>
+
+             <div>
+
+               <h2 class="text-lg font-bold text-pink-600">Mahatma Gandhi</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Ahinsa parmo dharma”</p>
+
+               <h2 class="text-lg font-bold text-pink-600 mt-3">Jawaharlal Nehru</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Hamara bhavishya hamare bachchon ke haath me hai”</p>
+
+               <h2 class="text-lg font-bold text-pink-600">Sardar Vallabhbhai Patel</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Ekta hi shakti hai”</p>
+
+               <h2 class="text-lg font-bold text-pink-600">Subhas Chandra Bose</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Tum mujhe khoon do, main tumhe aazadi dunga”</p>
+
+               <h2 class="text-lg font-bold text-pink-600">Lal Bahadur Shastri</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Jai Jawan, Jai Kisan”</p>
+
+               <h2 class="text-lg font-bold text-pink-600">B. R. Ambedkar</h2>
+               <p class="text-lg text-pink-500 mb-1 leading-relaxed">“Shiksha sabse badi shakti hai”</p>
+          
+             </div>
+
+        </div>
+
+         <div class="bg-white/95 rounded-[20px] w-112.5 mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.15)] text-center p-5
+                 border-t-20 border-t-orange-500 border-b-20 border-b-green-500 ease-[cubic-bezier(0.176,0.885,0.32,1.275)] 
+                 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)]">
+
+                <h1 class="text-xl font-bold text-green-600 mb-2">REPUBLIC DAY SONG</h1>
+
+             <div>
+               <label for="watan" class="text-sm font-bold mb-2">Ae Watan</label>
+               <audio id="watan" src="Ae Watan.mp3" controls controlsList="nodownload" class="m-3" ></audio>
+
+               <label for="maa" class="text-sm font-bold mb-2">Maa Tujhe Salam</label>
+               <audio id="maa" src="Maa Tujhe Salam.mp3" controls controlsList="nodownload" class="m-3"></audio>
+
+               
+               <label for="desh" class="text-sm font-bold mb-2">Desh Mere</label>
+               <audio id="desh" src="Desh Mere.mp3" controls controlsList="nodownload" class="m-3"></audio>
+               
+               <label for="sandeshe" class="text-sm font-bold mb-2">Sandeshe Aate Hain</label>
+               <audio id="sandeshe" src="Sandeshe Aate Hain.mp3" controls controlsList="nodownload" class="m-3"></audio>
+             
+             </div>
+
+           </div>
+
+          </div>
+
+          <div class="fixed inset-0 -z-10 pointer-events-none animate-ping translate-y-[20vh] duration-1000 delay-1000">
+
+           <img src="https://i.postimg.cc/L4gyQWbz/balloon.png" class="w-full h-full object-cover" /> 
+            
+          </div>
+    
+    <div class="bg-linear-to-r from-orange-500 via-white to-green-500 p-6 flex flex-col justify-center items-center"> 
+
+        <h3 class="font-bold">© 2026 Republic Day Project | All Rights Reserved</h3>
+        <h3 class="font-bold">Designed & Developed by Pawan Kumar</h3>
+
+    </div>
+
+    <script src="home.js"></script>
+
+</body>
+</html>
