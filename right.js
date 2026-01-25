@@ -15,12 +15,12 @@ function openConstitution() {
     window.location.href = "constitution.html";
 }
 
-function openLeaders() {
+function openLeader() {
     window.location.href = "leader.html";
 }
 
-function openDuties() {
-    window.location.href = "duties.html";
+function openDuty() {
+    window.location.href = "duty.html";
 }
 
 function openQuiz() {

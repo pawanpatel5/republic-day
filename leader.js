@@ -18,8 +18,8 @@ function openRight() {
     window.location.href = "right.html";
 }
 
-function openDuties() {
-    window.location.href = "duties.html";
+function openDuty() {
+    window.location.href = "duty.html";
 }
 
 function openQuiz() {
